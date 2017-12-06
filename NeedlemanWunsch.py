@@ -200,6 +200,8 @@ class NeedlemanWunsch:
         metrics['newS1'] = newS1
         metrics['newS2'] = newS2
         metrics['score'] = matchScore
+        self.printValueMatrix(valueMatrix)
+        self.printDirectionMatrix(directionMatrix, len(s2), len(s1))
         print newS1
         print newS2
         print "score: " + str(matchScore)
@@ -310,26 +312,26 @@ dengue4_NS3 = 'RKGKVIGLYGNGVVTKSGDYVSAITQAERTGEPDYEVDEDIFRKKRLTIMDLHPGAGKTKRILPS
 
 # print "Dengue 1 & 2 Virus Full Genome Pairwise Sequence Alignment"
 # NeedlemanWunsch.align(dengue1_fullGenome, dengue2_fullGenome)
-print "Dengue 1 & 3 Virus Full Genome Pairwise Sequence Alignment"
-NeedlemanWunsch.align(dengue1_fullGenome, dengue3_fullGenome)
-print "Dengue 1 & 4 Virus Full Genome Pairwise Sequence Alignment"
-NeedlemanWunsch.align(dengue1_fullGenome, dengue4_fullGenome)
-print "Dengue 2 & 3 Virus Full Genome Pairwise Sequence Alignment"
-NeedlemanWunsch.align(dengue2_fullGenome, dengue3_fullGenome)
-print "Dengue 2 & 4 Virus Full Genome Pairwise Sequence Alignment"
-NeedlemanWunsch.align(dengue2_fullGenome, dengue4_fullGenome)
-print "Dengue 3 & 4 Virus Full Genome Pairwise Sequence Alignment"
-NeedlemanWunsch.align(dengue3_fullGenome, dengue4_fullGenome)
+# print "Dengue 1 & 3 Virus Full Genome Pairwise Sequence Alignment"
+# NeedlemanWunsch.align(dengue1_fullGenome, dengue3_fullGenome)
+# print "Dengue 1 & 4 Virus Full Genome Pairwise Sequence Alignment"
+# NeedlemanWunsch.align(dengue1_fullGenome, dengue4_fullGenome)
+# print "Dengue 2 & 3 Virus Full Genome Pairwise Sequence Alignment"
+# NeedlemanWunsch.align(dengue2_fullGenome, dengue3_fullGenome)
+# print "Dengue 2 & 4 Virus Full Genome Pairwise Sequence Alignment"
+# NeedlemanWunsch.align(dengue2_fullGenome, dengue4_fullGenome)
+# print "Dengue 3 & 4 Virus Full Genome Pairwise Sequence Alignment"
+# NeedlemanWunsch.align(dengue3_fullGenome, dengue4_fullGenome)
 
-# print "Dengue 1 & 2 Virus NS3 Pairwise Sequence Alignment"
-# NeedlemanWunsch.align(dengue1_NS3, dengue2_NS3)
-# print "Dengue 1 & 3 Virus NS3 Pairwise Sequence Alignment"
-# NeedlemanWunsch.align(dengue1_NS3, dengue3_NS3)
-# print "Dengue 1 & 4 Virus NS3 Pairwise Sequence Alignment"
-# NeedlemanWunsch.align(dengue1_NS3, dengue4_NS3)
-# print "Dengue 2 & 3 Virus NS3 Pairwise Sequence Alignment"
-# NeedlemanWunsch.align(dengue2_NS3, dengue3_NS3)
-# print "Dengue 2 & 4 Virus NS3 Pairwise Sequence Alignment"
-# NeedlemanWunsch.align(dengue2_NS3, dengue4_NS3)
-# print "Dengue 3 & 4 Virus NS3 Pairwise Sequence Alignment"
-# NeedlemanWunsch.align(dengue3_NS3, dengue4_NS3)
+print "Dengue 1 & 2 Virus NS3 Pairwise Sequence Alignment"
+NeedlemanWunsch.align(dengue1_NS3, dengue2_NS3)
+print "Dengue 1 & 3 Virus NS3 Pairwise Sequence Alignment"
+NeedlemanWunsch.align(dengue1_NS3, dengue3_NS3)
+print "Dengue 1 & 4 Virus NS3 Pairwise Sequence Alignment"
+NeedlemanWunsch.align(dengue1_NS3, dengue4_NS3)
+print "Dengue 2 & 3 Virus NS3 Pairwise Sequence Alignment"
+NeedlemanWunsch.align(dengue2_NS3, dengue3_NS3)
+print "Dengue 2 & 4 Virus NS3 Pairwise Sequence Alignment"
+NeedlemanWunsch.align(dengue2_NS3, dengue4_NS3)
+print "Dengue 3 & 4 Virus NS3 Pairwise Sequence Alignment"
+NeedlemanWunsch.align(dengue3_NS3, dengue4_NS3)

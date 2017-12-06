@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f7c4cd9-5c07-4890-8ca4-cdb09fbc592d" name="Default" comment="" />
+    <list default="true" id="3f7c4cd9-5c07-4890-8ca4-cdb09fbc592d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/msa.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/msa2.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeedlemanWunsch.py" afterPath="$PROJECT_DIR$/NeedlemanWunsch.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,13 +19,17 @@
       <file leaf-file-name="NeedlemanWunsch.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NeedlemanWunsch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="2" selection-end-line="311" selection-end-column="63" />
+            <state relative-caret-position="1107">
+              <caret line="326" column="46" lean-forward="false" selection-start-line="326" selection-start-column="35" selection-end-line="326" selection-end-column="46" />
               <folding>
                 <element signature="e#263#297#0" expanded="false" />
+                <element signature="e#346#916#0" expanded="false" />
                 <element signature="e#954#1194#0" expanded="false" />
-                <element signature="e#7570#7686#0" expanded="false" />
-                <element signature="e#7747#7908#0" expanded="false" />
+                <element signature="e#1319#1810#0" expanded="false" />
+                <element signature="e#1849#7637#0" expanded="false" />
+                <element signature="e#7859#8020#0" expanded="false" />
+                <element signature="e#8070#8666#0" expanded="false" />
+                <element signature="e#8693#8909#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -56,16 +65,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DengueSerotypeGenomeAlignment.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DengueSerotypeGenomeAlignment.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -92,6 +91,9 @@
       <replace />
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -114,6 +116,7 @@
     <option name="width" value="1280" />
     <option name="height" value="773" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -129,7 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,11 +140,16 @@
               <item name="AminoAcidSequenceAlignmentDengue" type="b2602c69:ProjectViewProjectNode" />
               <item name="AminoAcidSequenceAlignmentDengue" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AminoAcidSequenceAlignmentDengue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AminoAcidSequenceAlignmentDengue" type="462c0819:PsiDirectoryNode" />
+              <item name="DistanceMatrices" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,27 +344,35 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3933764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2197092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3318584" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3318584" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21976401" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19174041" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39970502" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39970502" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -385,7 +401,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -396,9 +412,13 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#263#297#0" expanded="false" />
+            <element signature="e#346#916#0" expanded="false" />
             <element signature="e#954#1194#0" expanded="false" />
-            <element signature="e#7570#7686#0" expanded="false" />
-            <element signature="e#7747#7908#0" expanded="false" />
+            <element signature="e#1319#1810#0" expanded="false" />
+            <element signature="e#1849#7637#0" expanded="false" />
+            <element signature="e#7859#8020#0" expanded="false" />
+            <element signature="e#8070#8666#0" expanded="false" />
+            <element signature="e#8693#8909#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -441,9 +461,62 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#263#297#0" expanded="false" />
+            <element signature="e#346#916#0" expanded="false" />
             <element signature="e#954#1194#0" expanded="false" />
-            <element signature="e#7570#7686#0" expanded="false" />
-            <element signature="e#7747#7908#0" expanded="false" />
+            <element signature="e#1319#1810#0" expanded="false" />
+            <element signature="e#1849#7637#0" expanded="false" />
+            <element signature="e#7859#8020#0" expanded="false" />
+            <element signature="e#8070#8666#0" expanded="false" />
+            <element signature="e#8693#8909#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DengueVirusFullGenome/AminoAcidSequences/DengueV1AminoAcidSequence">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistanceMatrices/blosum62">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistanceMatrices/blosum80">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DengueSerotypeGenomeAlignment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeedlemanWunsch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#263#297#0" expanded="false" />
+            <element signature="e#346#916#0" expanded="false" />
+            <element signature="e#954#1194#0" expanded="false" />
+            <element signature="e#1319#1810#0" expanded="false" />
+            <element signature="e#1849#7637#0" expanded="false" />
+            <element signature="e#7859#8020#0" expanded="false" />
+            <element signature="e#8070#8666#0" expanded="false" />
+            <element signature="e#8693#8909#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -486,9 +559,13 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#263#297#0" expanded="false" />
+            <element signature="e#346#916#0" expanded="false" />
             <element signature="e#954#1194#0" expanded="false" />
-            <element signature="e#7570#7686#0" expanded="false" />
-            <element signature="e#7747#7908#0" expanded="false" />
+            <element signature="e#1319#1810#0" expanded="false" />
+            <element signature="e#1849#7637#0" expanded="false" />
+            <element signature="e#7859#8020#0" expanded="false" />
+            <element signature="e#8070#8666#0" expanded="false" />
+            <element signature="e#8693#8909#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -531,9 +608,13 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#263#297#0" expanded="false" />
+            <element signature="e#346#916#0" expanded="false" />
             <element signature="e#954#1194#0" expanded="false" />
-            <element signature="e#7570#7686#0" expanded="false" />
-            <element signature="e#7747#7908#0" expanded="false" />
+            <element signature="e#1319#1810#0" expanded="false" />
+            <element signature="e#1849#7637#0" expanded="false" />
+            <element signature="e#7859#8020#0" expanded="false" />
+            <element signature="e#8070#8666#0" expanded="false" />
+            <element signature="e#8693#8909#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -544,9 +625,13 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#263#297#0" expanded="false" />
+            <element signature="e#346#916#0" expanded="false" />
             <element signature="e#954#1194#0" expanded="false" />
-            <element signature="e#7570#7686#0" expanded="false" />
-            <element signature="e#7747#7908#0" expanded="false" />
+            <element signature="e#1319#1810#0" expanded="false" />
+            <element signature="e#1849#7637#0" expanded="false" />
+            <element signature="e#7859#8020#0" expanded="false" />
+            <element signature="e#8070#8666#0" expanded="false" />
+            <element signature="e#8693#8909#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -628,10 +713,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DengueSerotypeGenomeAlignment.html">
+    <entry file="file://$PROJECT_DIR$/DengueVirusFullGenome/AminoAcidSequences/DengueV1AminoAcidSequence">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="150">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -644,6 +729,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DengueSerotypeGenomeAlignment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DistanceMatrices/blosum80">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -652,23 +745,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DengueVirusFullGenome/AminoAcidSequences/DengueV1AminoAcidSequence">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NeedlemanWunsch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="2" selection-end-line="311" selection-end-column="63" />
+        <state relative-caret-position="1107">
+          <caret line="326" column="46" lean-forward="false" selection-start-line="326" selection-start-column="35" selection-end-line="326" selection-end-column="46" />
           <folding>
             <element signature="e#263#297#0" expanded="false" />
+            <element signature="e#346#916#0" expanded="false" />
             <element signature="e#954#1194#0" expanded="false" />
-            <element signature="e#7570#7686#0" expanded="false" />
-            <element signature="e#7747#7908#0" expanded="false" />
+            <element signature="e#1319#1810#0" expanded="false" />
+            <element signature="e#1849#7637#0" expanded="false" />
+            <element signature="e#7859#8020#0" expanded="false" />
+            <element signature="e#8070#8666#0" expanded="false" />
+            <element signature="e#8693#8909#0" expanded="false" />
           </folding>
         </state>
       </provider>
